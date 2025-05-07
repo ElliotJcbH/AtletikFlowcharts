@@ -113,7 +113,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HyG3_zi9B4vWqZDfXpHW-34" value="User ID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="425" y="360" width="100" height="30" as="geometry" />
+          <mxGeometry x="410" y="360" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HyG3_zi9B4vWqZDfXpHW-35" value="User ID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="340" width="100" height="30" as="geometry" />
