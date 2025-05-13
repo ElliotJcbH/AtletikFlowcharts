@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.4">
   <diagram name="Page-1" id="ngnPtOvVlFleFGhMRyeF">
-    <mxGraphModel dx="2130" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2281" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,6 +187,9 @@
         </mxCell>
         <mxCell id="_3y1C-OyyPjyJ7rn_RSj-33" value="D3" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" parent="1" vertex="1">
           <mxGeometry x="750" y="620" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_3y1C-OyyPjyJ7rn_RSj-34" target="uFTpWBEfuZ4hpacMZaPC-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_3y1C-OyyPjyJ7rn_RSj-34" value="public.teams" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="620" width="110" height="40" as="geometry" />
@@ -402,38 +405,29 @@
         <mxCell id="_3y1C-OyyPjyJ7rn_RSj-105" value="&lt;div&gt;Tournament Info&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="1040" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uFTpWBEfuZ4hpacMZaPC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.012;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="341.44000000000005" y="1134.3400000000001" as="targetPoint" />
-            <mxPoint x="470" y="1133.5" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uFTpWBEfuZ4hpacMZaPC-1" value="User" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1102" width="100" height="50" as="geometry" />
+          <mxGeometry x="470" y="1200" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uFTpWBEfuZ4hpacMZaPC-2" value="12.0" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="1100" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uFTpWBEfuZ4hpacMZaPC-3" value="Tournaments" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uFTpWBEfuZ4hpacMZaPC-2">
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-3" value="Fetch Tournaments" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uFTpWBEfuZ4hpacMZaPC-2">
           <mxGeometry y="20" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uFTpWBEfuZ4hpacMZaPC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.339;entryY=1.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uFTpWBEfuZ4hpacMZaPC-3" target="_3y1C-OyyPjyJ7rn_RSj-89">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="uFTpWBEfuZ4hpacMZaPC-10" value="Registration Info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="75" y="1140" width="110" height="30" as="geometry" />
+          <mxGeometry x="60" y="1210" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uFTpWBEfuZ4hpacMZaPC-11" value="&lt;div&gt;Tournament Info&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="1090" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uFTpWBEfuZ4hpacMZaPC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.664;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="uFTpWBEfuZ4hpacMZaPC-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="1120.0117647058823" as="sourcePoint" />
             <mxPoint x="468.70000000000005" y="1120.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uFTpWBEfuZ4hpacMZaPC-16" value="Registration Info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1140" width="110" height="30" as="geometry" />
+          <mxGeometry x="350" y="1200" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uFTpWBEfuZ4hpacMZaPC-17" value="&lt;div&gt;Tournament Info&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="355" y="1090" width="100" height="30" as="geometry" />
@@ -443,6 +437,39 @@
         </mxCell>
         <mxCell id="uFTpWBEfuZ4hpacMZaPC-19" value="public.accolades" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="795" y="1102" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-21" value="12.0" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-22" value="Register to Tournament" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uFTpWBEfuZ4hpacMZaPC-21">
+          <mxGeometry y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.018;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uFTpWBEfuZ4hpacMZaPC-1" target="uFTpWBEfuZ4hpacMZaPC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.314;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uFTpWBEfuZ4hpacMZaPC-22" target="_3y1C-OyyPjyJ7rn_RSj-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-26" value="User IDs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="612" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-27" value="D10" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="980" y="900" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-28" value="public.invites" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="900" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-30" value="13.0" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="612" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-31" value="Create Invites" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uFTpWBEfuZ4hpacMZaPC-30">
+          <mxGeometry y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uFTpWBEfuZ4hpacMZaPC-31" target="uFTpWBEfuZ4hpacMZaPC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFTpWBEfuZ4hpacMZaPC-36" value="Invites" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="770" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
