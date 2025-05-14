@@ -1,9 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="Page-1" id="oPf3POVZXk2hm216f2bt">
-    <mxGraphModel>
+    <mxGraphModel dx="1907" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oJdG5XVkvh5iPl4SjUz4-2" target="oJdG5XVkvh5iPl4SjUz4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-2" value="Start" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-553" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-4" value="Selected&lt;div&gt;Group Data&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="120" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Select&amp;nbsp;&lt;/div&gt;&lt;div&gt;Sport&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-563" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oJdG5XVkvh5iPl4SjUz4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-513" y="289.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-13" value="Redirect to tournament creation for selected sport" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-595" y="290" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-19" value="End" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-552.5" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.503;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oJdG5XVkvh5iPl4SjUz4-4" target="oJdG5XVkvh5iPl4SjUz4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oJdG5XVkvh5iPl4SjUz4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=-15.000000000000002;entryPerimeter=0;" edge="1" parent="1" source="oJdG5XVkvh5iPl4SjUz4-13" target="oJdG5XVkvh5iPl4SjUz4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
