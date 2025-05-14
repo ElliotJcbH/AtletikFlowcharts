@@ -1,9 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="Page-1" id="54BmXvutcF5Cmjbbnw5_">
-    <mxGraphModel>
+    <mxGraphModel dx="1955" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rczKnNYQ8U0arZGSvwM_-1" target="rczKnNYQ8U0arZGSvwM_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-1" value="Start" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-465" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-2" value="Create invite object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-485.25" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rczKnNYQ8U0arZGSvwM_-3" target="rczKnNYQ8U0arZGSvwM_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-3" value="User IDs,&amp;nbsp;&lt;div&gt;Group information&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="-510.5" y="170" width="170.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270.25" y="516.0000000000001" as="sourcePoint" />
+            <mxPoint x="-365.5000000000002" y="516.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public.invites&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-300.25" y="490" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.711;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rczKnNYQ8U0arZGSvwM_-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-365.5000000000002" y="532.0000000000001" as="sourcePoint" />
+            <mxPoint x="-270.25" y="532.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rczKnNYQ8U0arZGSvwM_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-425" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-510" y="400" />
+              <mxPoint x="-510" y="240" />
+              <mxPoint x="-425" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-14" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rczKnNYQ8U0arZGSvwM_-12">
+          <mxGeometry x="-0.8666" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rczKnNYQ8U0arZGSvwM_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-425.5" y="489.9999999999999" as="targetPoint" />
+            <mxPoint x="-425" y="454" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-20" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rczKnNYQ8U0arZGSvwM_-16">
+          <mxGeometry x="-0.2122" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-11" value="Is last user id?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-475.25" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rczKnNYQ8U0arZGSvwM_-2" target="rczKnNYQ8U0arZGSvwM_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rczKnNYQ8U0arZGSvwM_-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-425.25" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-17" value="Pass invites" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-485.25" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rczKnNYQ8U0arZGSvwM_-19" value="End" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="-465.25" y="580" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
