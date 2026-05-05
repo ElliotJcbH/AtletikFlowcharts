@@ -16,7 +16,7 @@
         <mxCell id="ZUC_NcB850URcfHk_JWK-2" parent="ZUC_NcB850URcfHk_JWK-1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Atletik: A Sports Promotion Mobile Application for Taytay LGU" vertex="1">
           <mxGeometry height="80" width="180" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZUC_NcB850URcfHk_JWK-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shadow=0;" value="User" vertex="1">
+        <mxCell id="ZUC_NcB850URcfHk_JWK-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shadow=0;glass=0;rounded=0;strokeWidth=1;strokeColor=default;" value="User" vertex="1">
           <mxGeometry height="50" width="100" x="80" y="305" as="geometry" />
         </mxCell>
         <mxCell id="ZUC_NcB850URcfHk_JWK-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
