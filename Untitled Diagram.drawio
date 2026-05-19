@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Wm4q370axAvJ1cxAT9Is">
-    <mxGraphModel>
+    <mxGraphModel dx="634" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shadow=1;glass=0;rounded=0;strokeWidth=1;top=1;bottom=1;strokeColor=default;fillOpacity=100;shadowOpacity=100;shadowOffsetX=-4;shadowOffsetY=-4;shadowBlur=0;" value="Sports Development Office" vertex="1">
+          <mxGeometry height="50" width="100" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--2" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shadow=1;glass=0;rounded=0;strokeWidth=1;top=1;bottom=1;strokeColor=default;fillOpacity=100;shadowOpacity=100;shadowOffsetX=-4;shadowOffsetY=-4;shadowBlur=0;" value="The Public" vertex="1">
+          <mxGeometry height="50" width="100" x="364" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--3" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;" value="0" vertex="1">
+          <mxGeometry height="100" width="180" x="324" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--4" parent="Sbn5kPqqVi1qa37tNRN--3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Distribution Mediums" vertex="1">
+          <mxGeometry height="80" width="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="400" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="475" as="sourcePoint" />
+            <mxPoint x="417.81999999999994" y="412.32000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Interest" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Promotional Material" vertex="1">
+          <mxGeometry height="30" width="60" x="324" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401" y="250" as="sourcePoint" />
+            <mxPoint x="401" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="310" as="sourcePoint" />
+            <mxPoint x="418.74999999999994" y="250.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Interest" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="267" as="geometry" />
+        </mxCell>
+        <mxCell id="Sbn5kPqqVi1qa37tNRN--16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Event Information" vertex="1">
+          <mxGeometry height="30" width="60" x="324" y="266" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
